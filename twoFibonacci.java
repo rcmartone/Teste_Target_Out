@@ -11,9 +11,6 @@ public class twoFibonacci {
         }
         scanner.close();
     }
-    //------------------------------------------------------------------------------------------//
-    // Função para verificar se o número pertence à sequência de Fibonacci
-    //------------------------------------------------------------------------------------------//
     public static boolean fibonacci(int num) {
         int a = 0, b = 1;
         if (num == a || num == b) {
