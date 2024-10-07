@@ -6,18 +6,12 @@ public class fourFatDistribuidora {
         double faturamentoMG = 29229.88;
         double faturamentoES = 27165.48;
         double faturamentoOutros = 19849.53;
-
-        // Valor total do faturamento
         double faturamentoTotal = faturamentoSP + faturamentoRJ + faturamentoMG + faturamentoES + faturamentoOutros;
-
-        // Percentual de cada estado
         double percentualSP = (faturamentoSP / faturamentoTotal) * 100;
         double percentualRJ = (faturamentoRJ / faturamentoTotal) * 100;
         double percentualMG = (faturamentoMG / faturamentoTotal) * 100;
         double percentualES = (faturamentoES / faturamentoTotal) * 100;
         double percentualOutros = (faturamentoOutros / faturamentoTotal) * 100;
-
-        // Exibindo
         System.out.printf("O percentual de SP: %.2f%%%n", percentualSP);
         System.out.printf("O percentual de RJ: %.2f%%%n", percentualRJ);
         System.out.printf("O percentual de MG: %.2f%%%n", percentualMG);
